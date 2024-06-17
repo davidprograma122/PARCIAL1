@@ -61,5 +61,12 @@ public class Computadora {
         this.dfpcPrecio = dfpcPrecio;
     }
     
-    
+    public void imprimir(){
+        System.out.println("--------DATOS DE LA COMPUTADORA--------\n"
+                +"Marca: "+ getDfpcMarca()+"\n"
+                +"Memoria: "+ getDfpcMemoria()+"\n"
+                +"Procesador: "+ getDfpcProcesador()+"\n"
+                +"Sistema operativo: "+getDfpcSistemaOperativo()+"\n"
+                +"Precio: "+getDfpcPrecio()+"\n");
+    }
 }
